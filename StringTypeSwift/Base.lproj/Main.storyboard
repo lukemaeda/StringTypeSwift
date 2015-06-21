@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="StringTypeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NSString" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCT-CK-V44">
+                                <rect key="frame" x="16" y="264" width="382" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bgW-Pq-2BY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqt-er-6XS">
+                                <rect key="frame" x="16" y="291" width="382" height="33"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Geb-2m-7Nq"/>
+                                </constraints>
+                                <state key="normal" title="作成">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc01:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p3H-kv-ifR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lr2-2I-12n">
+                                <rect key="frame" x="16" y="566" width="382" height="33"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="追加">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc01m:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fIp-X6-VK4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqx-CU-aek">
+                                <rect key="frame" x="16" y="329" width="382" height="33"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="stC-mU-DFB"/>
+                                </constraints>
+                                <state key="normal" title="連結">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc02:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9Ku-ng-le2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1d-zX-dVd">
+                                <rect key="frame" x="16" y="607" width="382" height="33"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="挿入">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc02m:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JMC-kQ-o3o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Hd-AZ-xje">
+                                <rect key="frame" x="16" y="370" width="382" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="書式指定">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc03:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9ln-oD-A2Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaE-iN-eml">
+                                <rect key="frame" x="16" y="408" width="382" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="文字数">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc04:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jqe-if-dJD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCv-Zi-Yi4">
+                                <rect key="frame" x="16" y="447" width="382" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="部分取得">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc05:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SOW-Ki-GDk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlz-o0-xvp">
+                                <rect key="frame" x="16" y="486" width="382" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="比較">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc06:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CPm-Lu-6oT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9q-Lg-YcI">
+                                <rect key="frame" x="16" y="648" width="382" height="30"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="削除">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proc03m:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6yB-ie-a7f"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NSMutableString" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Me8-Kb-1dM">
+                                <rect key="frame" x="16" y="537" width="382" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Vtp-Kt-3if"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPa-LD-qAR">
+                                <rect key="frame" x="16" y="45" width="382" height="211"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aqt-er-6XS" firstAttribute="top" secondItem="mCT-CK-V44" secondAttribute="bottom" constant="6" id="4Wo-sL-gA4"/>
+                            <constraint firstItem="mCT-CK-V44" firstAttribute="top" secondItem="nPa-LD-qAR" secondAttribute="bottom" constant="8" symbolic="YES" id="4qQ-dd-X0y"/>
+                            <constraint firstItem="3Hd-AZ-xje" firstAttribute="leading" secondItem="kaE-iN-eml" secondAttribute="leading" id="55j-V8-hnq"/>
+                            <constraint firstItem="Lr2-2I-12n" firstAttribute="trailing" secondItem="Me8-Kb-1dM" secondAttribute="trailing" id="63v-pG-XOs"/>
+                            <constraint firstItem="3Hd-AZ-xje" firstAttribute="top" secondItem="eqx-CU-aek" secondAttribute="bottom" constant="8" symbolic="YES" id="6u2-xG-0C2"/>
+                            <constraint firstItem="Me8-Kb-1dM" firstAttribute="top" secondItem="wlz-o0-xvp" secondAttribute="bottom" constant="21" id="94j-qG-wHv"/>
+                            <constraint firstItem="aqt-er-6XS" firstAttribute="trailing" secondItem="mCT-CK-V44" secondAttribute="trailing" id="B5z-b4-gkv"/>
+                            <constraint firstItem="kaE-iN-eml" firstAttribute="trailing" secondItem="3Hd-AZ-xje" secondAttribute="trailing" id="BZ8-oL-6vz"/>
+                            <constraint firstItem="aqt-er-6XS" firstAttribute="leading" secondItem="mCT-CK-V44" secondAttribute="leading" id="DcY-3t-X8X"/>
+                            <constraint firstItem="wlz-o0-xvp" firstAttribute="top" secondItem="rCv-Zi-Yi4" secondAttribute="bottom" constant="9" id="Hi9-uz-ud0"/>
+                            <constraint firstItem="rCv-Zi-Yi4" firstAttribute="trailing" secondItem="kaE-iN-eml" secondAttribute="trailing" id="IDA-pa-jf6"/>
+                            <constraint firstItem="L1d-zX-dVd" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="IVj-Gw-1g9"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="w9q-Lg-YcI" secondAttribute="bottom" constant="58" id="KtG-sb-jJa"/>
+                            <constraint firstItem="eqx-CU-aek" firstAttribute="trailing" secondItem="3Hd-AZ-xje" secondAttribute="trailing" id="L4m-us-yMJ"/>
+                            <constraint firstItem="mCT-CK-V44" firstAttribute="leading" secondItem="nPa-LD-qAR" secondAttribute="leading" id="Llo-Kq-gl5"/>
+                            <constraint firstItem="Lr2-2I-12n" firstAttribute="top" secondItem="Me8-Kb-1dM" secondAttribute="bottom" constant="8" symbolic="YES" id="Mqy-q2-qO2"/>
+                            <constraint firstItem="Me8-Kb-1dM" firstAttribute="leading" secondItem="Lr2-2I-12n" secondAttribute="leading" id="QQF-u7-ZcM"/>
+                            <constraint firstItem="3Hd-AZ-xje" firstAttribute="leading" secondItem="eqx-CU-aek" secondAttribute="leading" id="Qhm-v2-4Ot"/>
+                            <constraint firstItem="rCv-Zi-Yi4" firstAttribute="leading" secondItem="kaE-iN-eml" secondAttribute="leading" id="SdM-fe-OJ9"/>
+                            <constraint firstItem="eqx-CU-aek" firstAttribute="leading" secondItem="aqt-er-6XS" secondAttribute="leading" id="VIg-YB-wcj"/>
+                            <constraint firstItem="kaE-iN-eml" firstAttribute="top" secondItem="3Hd-AZ-xje" secondAttribute="bottom" constant="8" symbolic="YES" id="VM2-Mr-Nfx"/>
+                            <constraint firstItem="L1d-zX-dVd" firstAttribute="leading" secondItem="w9q-Lg-YcI" secondAttribute="leading" id="VSc-ce-ZtY"/>
+                            <constraint firstItem="wlz-o0-xvp" firstAttribute="leading" secondItem="rCv-Zi-Yi4" secondAttribute="leading" id="Z4Q-az-77q"/>
+                            <constraint firstItem="L1d-zX-dVd" firstAttribute="top" secondItem="Lr2-2I-12n" secondAttribute="bottom" constant="8" symbolic="YES" id="bdp-mg-Zph"/>
+                            <constraint firstItem="Lr2-2I-12n" firstAttribute="trailing" secondItem="L1d-zX-dVd" secondAttribute="trailing" id="cZc-zZ-19m"/>
+                            <constraint firstItem="rCv-Zi-Yi4" firstAttribute="trailing" secondItem="wlz-o0-xvp" secondAttribute="trailing" id="cej-AE-Nfw"/>
+                            <constraint firstItem="L1d-zX-dVd" firstAttribute="leading" secondItem="Lr2-2I-12n" secondAttribute="leading" id="dOM-Ra-oPG"/>
+                            <constraint firstItem="nPa-LD-qAR" firstAttribute="trailing" secondItem="mCT-CK-V44" secondAttribute="trailing" id="f5Z-9d-mCl"/>
+                            <constraint firstItem="L1d-zX-dVd" firstAttribute="trailing" secondItem="w9q-Lg-YcI" secondAttribute="trailing" id="hDg-uo-3v0"/>
+                            <constraint firstItem="rCv-Zi-Yi4" firstAttribute="top" secondItem="kaE-iN-eml" secondAttribute="bottom" constant="9" id="hx2-ls-us1"/>
+                            <constraint firstItem="wlz-o0-xvp" firstAttribute="trailing" secondItem="Me8-Kb-1dM" secondAttribute="trailing" id="lYG-8q-LbT"/>
+                            <constraint firstItem="nPa-LD-qAR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="25" id="lYh-wm-sF1"/>
+                            <constraint firstItem="aqt-er-6XS" firstAttribute="trailing" secondItem="eqx-CU-aek" secondAttribute="trailing" id="nV9-Cf-ovF"/>
+                            <constraint firstItem="wlz-o0-xvp" firstAttribute="leading" secondItem="Me8-Kb-1dM" secondAttribute="leading" id="swQ-Jx-EI3"/>
+                            <constraint firstItem="Me8-Kb-1dM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="tTJ-QW-Uyh"/>
+                            <constraint firstItem="w9q-Lg-YcI" firstAttribute="top" secondItem="L1d-zX-dVd" secondAttribute="bottom" constant="8" symbolic="YES" id="wqs-30-ylt"/>
+                            <constraint firstItem="eqx-CU-aek" firstAttribute="top" secondItem="aqt-er-6XS" secondAttribute="bottom" constant="5" id="xyF-G3-1q6"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="teString" destination="nPa-LD-qAR" id="lQo-gm-xhe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
